@@ -1,4 +1,4 @@
-```markdown
+
 # Comparative Analysis of Geographic Information Systems
 A Study of Popular GIS Platforms and Their Applications
 
@@ -33,4 +33,3 @@ Below is a table of GIS systems analyzed in this study, with links to their resp
 | WhiteBox GAT             | [WhiteBox GAT.md](systems/WhiteBox%20GAT.md) |
 | gvSIG                    | [gvSIG.md](systems/gvSIG.md)                |
 | Maptitude                | [Maptitude.md](systems/Maptitude.md)        |
-```
