@@ -1,47 +1,141 @@
 ![ArcGIS Logo](/assets/arcgis/logo.png)
 
-ArcGIS is a comprehensive desktop GIS application developed by Esri, designed for spatial data analysis, visualization, and management. It offers a range of functionalities suitable for both novice and advanced users.
+# ArcGIS (Pro)
 
-**Core Functionalities**
+## Overview
 
-- **Geospatial Analysis**: ArcGIS provides powerful geoprocessing tools for analyzing spatial relationships, optimizing routing, and conducting exploratory data analysis.
-- **Data Management**: Users can create and manage geodatabases, perform data validation checks, and utilize advanced editing functionalities. The software supports both 2D and 3D visualization, enabling users to create dynamic maps and layouts.
-- **Cartography**: It features smart mapping capabilities, allowing users to create visually appealing maps with customizable symbology and labeling options.
-- **Imagery and Remote Sensing**: Tools for managing and analyzing imagery from various sources, including drones and satellites, are integrated into the platform[^1][^2].
+ArcGIS (Pro) is a comprehensive desktop GIS application developed by Esri, designed for spatial data analysis, visualization, and management.
 
-**Ease of Use \& Learning Curve**
+## Core Functionalities
 
-While many users find ArcGIS more user-friendly than its predecessor, ArcMap, the learning curve can still be steep for beginners. The software employs a ribbon-based interface similar to Microsoft Office, which helps in navigation. However, users often report needing significant time to familiarize themselves with its extensive features. Esri provides various resources such as tutorials and webinars to assist new users in overcoming initial challenges[^3][^4].
+- **Geospatial Analysis**: Powerful tools for spatial analysis, routing optimization, and data processing
+- **Data Management**: Creation and management of geodatabases with validation and editing capabilities
+- **Mapping and Visualization**: 2D and 3D visualization with customizable mapping features
+- **Imagery and Remote Sensing**: Tools for drone and satellite imagery analysis[^1][^2]
+- **Collaboration and Sharing**: Sharing capabilities via maps, apps, and dashboards[^204][^206]
+- **Customization and Automation**: Deployment builders and automation scripts[^204]
+- **Geoprocessing**: Basic geoprocessing toolboxes for analysis[^207]
 
-**Data Formats Supported**
+## Additional tools
 
-ArcGIS supports a wide array of data formats including:
+- **ArcGIS GeoBIM**
+- **ArcGIS Hub**
+- **ArcGIS Instant Apps**
+- **ArcGIS Maps for Adobe Creative Cloud**
+- **ArcGIS for Microsoft 365**
+- **ArcGIS Notebooks**
+- **ArcGIS QuickCapture**
+- **ArcGIS StoryMaps**
+- **ArcGIS Survey123**
+- **Web Editor**
+- **ArcGIS Workforce**
+- **Map Viewer**
+- **Scene Viewer**
+- **ArcGIS CityEngine**
+- **ArcGIS Image for ArcGIS Online**
+- **ArcGIS Living Atlas of the World**
+- **ArcGIS Maps SDKs for Native Apps**
+- **ArcGIS Solutions**
 
-- **Geodatabase** (.gdb)
-- **Shapefiles** (.shp)
-- **Layer Files** (.lyr)
-- **Raster Formats** (e.g., GeoTIFF)
-- **Project Files** (.aprx)
+## Ease of Use & Learning Curve
 
-The software can also import older formats from ArcMap, although some legacy formats are not supported directly[^5][^6].
+- Wonderful interface, speed, and ease of usage.
+- Useful and well-designed tools.
+- Strong user base and community resources.
+- Fairly intuitive to learn (specifically the Business Analyst software).
+- Great for saving custom reports and creating nice-looking infographics quickly.
+- Awesome to link accounting information with spatial information to understand spending and city improvements.
 
-**Scalability \& Performance**
+### **Pros of ArcGIS**
+
+1. **Comprehensive GIS Functionality**
+
+   - Offers a wide range of tools for spatial analysis, geoprocessing, cartography, and data management, making it a "Swiss Army knife" for GIS tasks .
+   - Integrates advanced statistical tools, Python libraries (e.g., pandas, numpy), and deep learning capabilities for complex workflows .
+
+2. **Extensive Data Access and Integration**
+
+   - Access to thousands of datasets via ArcGIS Online and seamless integration with external databases, web services, and diverse formats (shapefiles, geodatabases, etc.) .
+
+3. **Scalability and Customization**
+
+   - Highly scalable with extensions (e.g., ArcGIS Pro, ArcGIS Enterprise) to meet organizational needs, from basic mapping to enterprise-level analytics .
+
+4. **Professional Support and Learning Resources**
+
+   - Robust customer support and a wealth of tutorials, online courses, and documentation for users at all skill levels .
+
+5. **Industry Standard and Compatibility**
+
+   - Widely adopted in industries like government, education, and logistics, ensuring compatibility with peers and existing workflows .
+
+6. **Strong Visualization and Cartography**
+
+   - Advanced tools for creating 2D/3D maps, dynamic layouts, and interactive web maps, with extensive symbology options for professional outputs .
+
+7. **Mobile and Web Ecosystem**
+   - Companion apps (Field Maps, Survey123, StoryMaps) streamline fieldwork and data sharing with non-technical stakeholders .
+
+---
+
+### **Cons of ArcGIS**
+
+1. **High Cost and Licensing Complexity**
+
+   - Expensive licensing tiers (e.g., ArcInfo, Basic) and additional costs for extensions make it prohibitive for small organizations or individuals .
+
+2. **Steep Learning Curve**
+
+   - Requires significant training to master its extensive toolset, especially for users new to GIS concepts .
+
+3. **Performance and Stability Issues**
+
+   - Reports of slow processing times, frequent crashes, and bugs, even on powerful hardware .
+
+4. **Limited Interoperability**
+
+   - Struggles with certain GIS formats (e.g., open-source standards), requiring workarounds for data compatibility .
+
+5. **Outdated Interface and Usability**
+
+   - The desktop interface (e.g., ArcMap) is considered clunky and less intuitive compared to modern alternatives like QGIS .
+
+6. **Dependency on Windows OS**
+
+   - Primarily Windows-based, limiting accessibility for Linux or macOS users without virtual machines .
+
+7. **Not Open-Source**
+
+   - Lack of open-source flexibility discourages academic and cost-sensitive users .
+
+8. **Resource-Intensive for Large Datasets**
+   - Slower performance compared to alternatives (e.g., QGIS, Global Mapper) when handling massive vector/raster datasets.
+
+---
+
+For detailed comparisons with other tools (e.g., GeoPandas, QGIS), refer to the [search sources](#sources). (TODO: add sources from https://chat.deepseek.com/a/chat/s/1051bf92-d595-4561-afde-cad8383ff7f8#sources)
+
+## Scalability & Performance
 
 ArcGIS is designed to handle large datasets efficiently. It is optimized for performance in both single-user and multiuser environments. Users have noted that it rarely crashes and performs well even with complex analyses[^4]. The application can be deployed across organizations and scaled according to user needs.
 
-**Integration Capabilities**
+## Integration Capabilities
 
 ArcGIS seamlessly integrates with other Esri products and services, including ArcGIS Online. This integration allows for easy sharing of maps and data as well as access to additional analytical tools and resources available in the cloud[^2][^4].
 
-**Pricing \& Licensing**
+## Pricing & Licensing
 
-ArcGIS operates on a subscription-based licensing model with different tiers (Basic, Standard, Advanced) that unlock various functionalities. Pricing may vary based on the level of access required and whether the user opts for individual or organizational licenses.
+ArcGIS operates on a subscription-based licensing model with different tiers:
 
-**Community \& Support**
+- **Basic**
+- **Standard**
+- **Advanced**
+
+Prices [available here](https://www.esri.com/en-us/arcgis/products/arcgis-pro/buy).
+
+## Community & Support
 
 Esri has cultivated a robust community around ArcGIS. Users can access forums, blogs, and user groups for support. Additionally, Esri offers extensive documentation and help resources within the software itself to assist users with troubleshooting and learning new features[^3][^4].
-
-In summary, ArcGIS is a powerful GIS tool that balances advanced functionality with user-friendly design elements. While it presents some challenges for new users due to its complexity, the extensive support resources available can help ease the transition into effective usage.
 
 <div style="text-align: center">⁂</div>
 
@@ -154,3 +248,12 @@ In summary, ArcGIS is a powerful GIS tool that balances advanced functionality w
 [^107]: https://gis.stackexchange.com/questions/tagged/arcgis-pro
 [^108]: https://desktop.arcgis.com/en/support/
 [^109]: https://community.esri.com/t5/arcgis-pro/ct-p/arcgis-pro
+[^201]: https://www.esri.com/content/dam/esrisites/en-us/media/manuals/arcgis-enterprise-functionality-matrix-current.pdf
+[^202]: https://developers.arcgis.com/net/key-features/
+[^203]: https://desktop.arcgis.com/en/arcmap/latest/manage-data/geodatabases/geodatabase-functionality-basic.htm
+[^204]: https://architecture.arcgis.com/en/overview/introduction-to-arcgis/arcgis-capabilities.html
+[^205]: https://enterprise.arcgis.com/en/get-started/10.7/linux/pdf/enterprise_matrix_107.pdf
+[^206]: https://pro.arcgis.com/en/pro-app/latest/get-started/get-started.htm
+[^207]: https://community.esri.com/t5/arcgis-pro-questions/arcgis-pro-what-is-core-functionality-at-basic/td-p/1477097
+[^208]: https://developers.arcgis.com/python/latest/guide/key-features/
+[^209]: https://www.softwareadvice.com/artificial-intelligence/arcgis-profile/reviews/
