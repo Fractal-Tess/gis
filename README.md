@@ -20,7 +20,7 @@ Below is a table of GIS systems analyzed in this study, with links to their resp
 
 | GIS System               | Research File Link                          |
 |--------------------------|---------------------------------------------|
-| ArcGIS Pro               | [ArcGIS-Pro.md](./systems/ArcGIS-Pro.md)      |
+| ArcGIS                   | [ArcGIS-Pro.md](./systems/ArcGIS.md)        |
 | Cadcorp                  | [Cadcorp.md](systems/Cadcorp.md)            |
 | FME                      | [FME.md](systems/FME.md)                    |
 | GE Smallworld            | [GE Smallworld.md](systems/GE%20Smallworld.md) |
